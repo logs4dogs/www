@@ -21,13 +21,13 @@ function App() {
                     </ul>
                     <div className="demo-button-container">
                     <div className="demo-button">
-                        <button className="button">Want to watch a demo?</button>
+                        <button className="button button-no-spacing">Want to watch a demo?</button>
                     </div>
                     </div>
                 </div>
                 <div className="buttons">
-                    <button className="button button-inverted">Join beta testing iOS</button>
-                    <button className="button button-inverted">Join beta testing Android</button>
+                    <button className="button button-inverted button-spacing">Join beta testing iOS</button>
+                    <button className="button button-inverted button-spacing">Join beta testing Android</button>
                 </div>
             </div>
         </div>

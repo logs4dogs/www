@@ -10,21 +10,16 @@
 }
 
 .title {
-    /* background-color: rgb(0,0,0); */
     background-color: rgba(0, 0, 0, 0.6);
     color: white;
     font-weight: bold;
-    /* border: 3px solid #f1f1f1; */
     position: absolute;
     height: 100vh;
-    /* left: 50%; */
-    /* transform: translate(-50%, -50%); */
     z-index: 1;
     top: 0;
     width: 100%;
     text-align: center;
     padding: 100px 20px 20px;
-
 }
 
 .title > h1 {
@@ -40,7 +35,6 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    /* flex-grow: 1; */
     height: 45vh;
     top: 300px;
     width: 100%;
@@ -67,8 +61,6 @@
     width: 50%;
 }
 
-
-
 .buttons {
     display: flex;
     flex-direction: row;
@@ -93,4 +85,61 @@
 .button-inverted {
     background-color: #fff;
     color: #0277bd;
+}
+
+/*@media screen and (max-width: 1020px) {  }*/
+
+/*
+Tablet
+ */
+@media screen and (max-width: 1024px) {
+    .about {
+        width: 70%;
+    }
+
+    .buttons {
+        width: 70%;
+    }
+}
+@media screen and (max-width: 480px) {
+    .about {
+        width: 100%;
+    }
+
+    .buttons {
+        flex-direction: column;
+    }
+
+    .button-spacing {
+        margin: 8px;
+
+    }
+
+    .button-no-spacing {
+        margin: 0;
+    }
+
+    .title {
+        padding: 50px 20px 20px;
+    }
+    .title > h1 {
+        font-size: 3em;
+    }
+    .title > p {
+        margin: 8px;
+        font-size: 1.5em;
+    }
+
+    .content {
+        top: 180px;
+        height: 65vh;
+    }
+
+    .demo-button {
+        width: 100%;
+    }
+
+    .button {
+        padding: 10px 15px;
+    }
 }
