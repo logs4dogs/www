@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import logo from './images/l4d-logo.png' ;
+import logo from './images/l4d-logo.png';
 
 function App() {
     return (
@@ -35,13 +35,16 @@ function App() {
                     <button className="button button-inverted button-spacing">Join beta testing Android</button>
                 </div>
                 <div className="sponsor">
-                    <div className="sponsor-logo-container">
-                        <img src="https://www.simonprins.com/wp-content/uploads/Logo-Simon-ACT-websitelogo.png" alt="ACT logo"/>
-                    </div>
+                    <a href="https://www.simonprins.com/">
+                        <div className="sponsor-logo-container">
+                            <img src="https://www.simonprins.com/wp-content/uploads/Logo-Simon-ACT-websitelogo.png"
+                                 alt="ACT logo"/>
+                        </div>
+                    </a>
                 </div>
                 <div className="copyright">
                     <p className="code">
-                       Logs4Dogs - Copyright © 2019 Frode Sjovatsen.
+                        Logs4Dogs - Copyright © 2019 Frode Sjovatsen.
                     </p>
                 </div>
             </div>
