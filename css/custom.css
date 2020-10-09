@@ -1,0 +1,22 @@
+.cover-image {
+    width: 270px;
+    height: auto;
+    border: #0050734f solid 1px;
+    border-radius: 4px;
+    padding: 16px;
+}
+
+/* .app-nav > ul > li > a {
+    font-weight: 200;
+    font-size: 1.2em;
+}
+
+.getting-started-highlight {
+  font-size: 1.6em;
+}
+*/
+@media screen and (max-width: 768px) {
+    nav {
+      display: none;
+    }
+  } 
