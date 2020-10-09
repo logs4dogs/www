@@ -1,6 +1,7 @@
 {
   "hosting": {
-    "public": "build",
+    "site": "logs4dogs-prod-eur3",
+    "public": ".",
     "ignore": [
       "firebase.json",
       "**/.*",

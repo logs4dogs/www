@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Logs4Dogs</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Logs4Dogs homepage">
+  <meta name="keywords" content="logs4dogs,dog training,animal training,dog,operant conditioning,oc,bob bailey">  
+  <link rel="icon" href="_media/favicon.ico">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-defaults.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+  <link rel="stylesheet" href="css/theme-custom.css">
+  <link rel="stylesheet" href="css/to-top-button.css">
+  <link rel="stylesheet" href="css/custom.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+  <style type="text/css">
+  :root {
+    --text-color-base: #d3d3d3;
+  }
+  .page_toc {
+    top: 75px;
+  }
+  </style>
+</head>
+<body>
+  <div id="app"></div>
+  <button onclick="scrollToTop()" class="to-top-button" id="f-to-top-button">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+  
+  <script>
+    window.$docsify = {
+      name: 'Logs4Dogs',
+      logo: '/_media/logo.png',
+      homepage: 'home.md',
+      subMaxLevel: 2,
+      auto2top: true,
+      loadSidebar: true,
+      coverpage: true,
+      loadNavbar: true,
+      plugins: [
+    function(hook) {
+      var footer = [
+        '<footer style="margin-top: 32px; display: flex; justify-content: center">',
+        '<small>&copy; Logs4Dogs.com. All rights reserved.</small>',
+        '</footer>'
+      ].join('');
+
+      hook.afterEach(function(html) {
+        return html + footer;
+      });
+    }
+  ]
+
+    }
+  </script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+  <script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
+  <script src="https://unpkg.com/docsify-themeable"></script>
+  <script src="js/to-top.js"></script>
+  <script src="//unpkg.com/docsify/lib/plugins/emoji.min.js"></script>
+</body>
+</html>
