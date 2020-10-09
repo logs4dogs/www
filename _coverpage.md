@@ -1,6 +1,6 @@
 <!-- _coverpage.md -->
 
-<img class="cover-image" src="/_media/l4d-logo-square.png" data-origin="_media/l4d-logo-square.png" alt="l4d-logo-square">
+<img class="cover-image" src="/_media/logo-main.png" data-origin="_media/logo-main.png" alt="logo-main">
 <h2>
     A solution for planning your dog’s training, collecting data
     during your training sessions, and analyzing your training data
