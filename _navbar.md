@@ -1,4 +1,4 @@
 * [Home](/)
 * [Articles](articles.md)
 * [Partners](partners.md)
-* [My Logs4Dogs](https://my.logs4dogs.com)
+* [My Logs4Dogs](get-logs4dogs.md)
